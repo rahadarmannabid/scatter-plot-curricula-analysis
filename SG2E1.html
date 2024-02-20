@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            font-size: smaller;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 20px;
+        }
+        .item-container {
+            width: 45%;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px; /* Add padding between div items */
+            margin-right: 20px;
+        }
+        .item {
+            padding: 20px;
+        }
+        .item h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .item ol {
+            padding-left: 20px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .next-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .next-button:hover {
+            background-color: #0056b3;
+        }
+        .google-form {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .google-form iframe {
+            max-width: 100%;
+        }
+        @media only screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .item-container, .google-form {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div style="text-align: center; padding-top: 20px;"> <!-- Added padding-top: 20px -->
+        <h2 style="color: #007bff; margin-top: 0; font-size: 28px;">3/8</h2>
+    </div>
+
+<div class="container">
+    <div class="item-container">
+        <div class="item">
+            <h2>SG2</h2> <!-- Replaced "SG1" with "SG2" -->
+            <ol>
+                <li>Introduction to Data Visualization</li>
+                <li>Understanding the Basics of Charts and Graphs</li>
+                <li>Introduction to Scatter Plots</li>
+                <li>Interpreting Scatter Plots: Understanding Points and Coordinates</li>
+                <li>Analyzing Trends in Scatter Plots</li>
+                <li>Understanding the Role of Colors in Scatter Plots</li>
+                <li>Reading and Interpreting Legends in Scatter Plots</li>
+                <li>Understanding Time-Series Data in Scatter Plots</li>
+                <li>Analyzing Scatter Plots: Identifying Correlations and Patterns</li>
+                <li>Advanced Scatter Plot Analysis: Outliers and Their Impact</li>
+                <li>Using Scatter Plots for Predictive Analysis</li>
+                <li>Case Study: Interpreting and Analyzing Scatter Plots in Professional Sports</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="item-container">
+        <div class="item">
+            <h2>SE1</h2> <!-- Replaced "BoxE3" with "SE1" -->
+            <ol>
+                <li>Introduction to Scatter Plot</li>
+                <li>What is Scatter Plot?</li>
+                <li>Key elements: Axes, Labels, Title</li>
+                <li>Controlled parameter vs Measured parameter</li>
+                <li>Common Scatter Plot Options</li>
+                <li>Add a trend line.</li>
+                <li>Categorical third variable</li>
+                <li>Numeric third variable</li>
+                <li>Scatter Plot Correlation</li>
+                <li>Constructing and reading Scatter Plot</li>
+                <li>Handling various data distributions</li>
+                <li>Common issues when using Scatter Plot (e.g., Over-plotting)</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<div class="button-container">
+    <button class="next-button" onclick="window.location.href='SG2E2.html'">Next</button>
+</div>
+
+<div id="ff-compose" style="background-color: #f2f2f2; padding: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);"></div>
+<div class="container" id="ff-compose"></div>
+<script async defer src="https://formfacade.com/include/102748213691995912858/form/1FAIpQLScmHlSpLAKplQqP3FUyKswzmrnmPVZ-0n2fVNSabaKuN5vUDg/bootstrap.js?div=ff-compose"></script>
+
+</body>
+</html>

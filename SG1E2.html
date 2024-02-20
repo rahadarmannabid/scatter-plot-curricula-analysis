@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            font-size: smaller;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 20px;
+        }
+        .item-container {
+            width: 45%;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px; /* Add padding between div items */
+            margin-right: 20px;
+        }
+        .item {
+            padding: 20px;
+        }
+        .item h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .item ol {
+            padding-left: 20px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .next-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .next-button:hover {
+            background-color: #0056b3;
+        }
+        .google-form {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .google-form iframe {
+            max-width: 100%;
+        }
+        @media only screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .item-container, .google-form {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div style="text-align: center; padding-top: 20px;"> <!-- Added padding-top: 20px -->
+        <h2 style="color: #007bff; margin-top: 0; font-size: 28px;">2/8</h2>
+    </div>
+
+<div class="container">
+    <div class="item-container">
+        <div class="item">
+            <h2>SG1</h2>
+            <ol>
+                <li>Understanding of scatter plots</li>
+                <li>Interpretation of scatter plots</li>
+                <li>Correlation and causation</li>
+                <li>Outliers</li>
+                <li>Color coding in data visualization</li>
+                <li>Legends in charts</li>
+                <li>Time series analysis</li>
+                <li>Understanding of the specific context or field the data is derived from, in this case professional bike racing</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="item-container">
+        <div class="item">
+            <h2>SE2</h2> <!-- Replaced "SE1" with "SE2" -->
+            <ol>
+                <li>Axis & Encoding</li>
+                <li>Scatterplots</li>
+                <li>Outliers detection</li>
+                <li>Trends</li>
+                <li>Clustering</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<div class="button-container">
+    <button class="next-button" onclick="window.location.href='SG2E1.html'">Next</button>
+</div>
+
+<div id="ff-compose" style="background-color: #f2f2f2; padding: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);"></div>
+<div class="container" id="ff-compose"></div>
+<script async defer src="https://formfacade.com/include/102748213691995912858/form/1FAIpQLScmHlSpLAKplQqP3FUyKswzmrnmPVZ-0n2fVNSabaKuN5vUDg/bootstrap.js?div=ff-compose"></script>
+
+</body>
+</html>
